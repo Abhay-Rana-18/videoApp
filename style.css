@@ -1,0 +1,50 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(208, 151, 255);
+}
+
+#join-screen {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 35%;
+    left: 38%;
+    border-radius: 16px;
+    padding: 20px;
+}
+#createMeetingBtn{
+    margin-bottom: 20px;
+    background-color: green;
+    color: white;
+}
+#joinBtn {
+    background-color: rgb(87, 87, 255);
+    color: white;
+}
+#meetingIdTxt {
+    margin-top: 20px;
+    width: 90%;
+    height: 1.8rem;
+    padding-left: 10px;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin: 10px 0;
+    font-size: 1rem;
+    border-radius: 12px;
+}
+
+#videoContainer {
+    /* color: white; */
+    width: 50vw !important;
+    height: 50vw !important;
+}
